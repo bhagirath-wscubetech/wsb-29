@@ -1,0 +1,32 @@
+.main{
+	width: 1000px;
+	height:500px;
+	border:2px red solid;
+	margin: auto;
+	background:url('../images/5.jpg') no-repeat left bottom;
+	background-size: 30% 50%;
+	/*
+	background-image:url('images/5.jpg');
+	background-size: 30% 50%;
+	background-repeat: no-repeat;
+	background-position: left bottom;*/
+}	
+.box{
+	width: 400px;
+	height: 400px;
+	margin: 50px auto;
+	/* y-axis x-axis*/
+	/*top and bottom - 50px*/
+	/*left and right - auto*/
+	border:2px red solid;
+	background:url('../images/5.jpg') no-repeat left bottom;
+	transition: 1s;
+	background-size: 100%  100% ;
+	border-radius: 50px 10px 20px 30px;
+}
+.box:hover{
+	/*width: 500px;*/
+	background:url('../images/3.jpg') no-repeat left bottom;
+	background-size: 100%  100% ;
+	border-radius:10px 20px 30px 50px;
+}

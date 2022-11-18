@@ -1,0 +1,12 @@
+.box{
+	width: 1000px;
+	height: 500px;
+	border:1px black solid;
+	background-image: url(../images/3.jpg);
+	/*background-size:33.33% 50%;*/
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	/*500px 350px*/
+	 /* 33% 50% */
+	/* ../ one folder back */
+}

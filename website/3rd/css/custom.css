@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Verdana, Tahoma, ms sans serif;
+}
+/* Universal CSS*/
+a{
+	text-decoration: none;
+	color: inherit;
+}
+section{
+	width: 100%;
+}
+main{
+	width: 1000px;
+	margin: auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+/* ----------------------- */
+#first{
+	background: url('../images/bg_img.jpg') top center;
+}
+
+header{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+header .right{
+	text-align: right;
+	font-size: 20px;
+	line-height: 30px;
+}
+nav{
+	margin:10px 0;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	background: url('../images/menu_rept.jpg');
+}
+nav li{
+	display: inline-block;
+	font-weight: bold;
+	padding: 15px;
+	font-size: 14px;
+	transition: 1s;
+}
+nav li:hover{
+	transform: translateY(-5px);
+}

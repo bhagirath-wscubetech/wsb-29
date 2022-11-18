@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.parent{
+			width: 400px;
+			height: 500px;
+			box-shadow: 0px 0px 2px black;
+			border-radius: 5px;
+			margin: 50px;
+			float: left;
+			position: relative;
+			overflow: hidden;
+		}
+		.overlay{
+			width: 100%;
+			height: 100%;
+			background: white;
+			position: absolute;
+			top:100%;
+			left: 100%;
+			transition: 1s;
+			font-family: verdana;
+			font-size: 20px;
+			box-sizing: border-box;
+			padding: 10px;
+		}
+		.parent:hover .overlay{
+			left:0%;
+			top: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<img src="https://picsum.photos/400/500?random=1">
+		<div class="overlay">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+	<div class="parent">
+		<img src="https://picsum.photos/400/500?random=2">
+		<div class="overlay">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+	<div class="parent">
+		<img src="https://picsum.photos/400/500?random=3">
+		<div class="overlay">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+</body>
+</html>

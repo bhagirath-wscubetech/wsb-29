@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.parent{
+			width: 1000px;
+			height: 500px;
+			margin: 40px auto;  
+			border:2px red solid;
+			position: relative;
+			overflow: hidden;
+		}
+		.box{
+			width: 200px;
+			height: 40px;
+			border:1px black solid;
+			position: absolute;
+			box-sizing: border-box;
+			transition: 2s;	
+			font-size: 30px
+		}
+		.box:nth-child(1){
+			top:200px;
+			left: 50px;
+		}
+		.box:nth-child(2){
+			top:200px;
+			right: -250px;
+		}
+		.parent:hover .box:nth-child(1){
+			left: -50px;
+		}
+		.parent:hover .box:nth-child(2){
+			right: -150px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="box">
+			::
+		</div>
+		<div class="box">
+			::
+		</div>
+	</div>
+</body>
+</html>

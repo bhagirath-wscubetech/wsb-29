@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.main{
+			width: 1000px;
+			height: 600px;
+			border:1px black solid;
+			margin: auto;
+			padding: 10px;
+		}	
+		.main div{
+			margin: 10px;
+		}
+		input,label{
+			font-size: 25px;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<form>
+			<div>
+				<label for="user_name">Name</label>
+				<input type="text" id="user_name" name="user_name">
+			</div>
+			<div>
+				<label for="user_address">Address</label>
+				<textarea id="user_address" name="user_address"></textarea>
+			</div>
+			<div>
+				<label>Gender</label>
+				<br>
+				<label for="m">Male</label> <input value="male" type="radio" id="m" name="gender">
+				<label for="f">Female</label> <input value="female" type="radio" id="f" name="gender">
+				<label for="o">Other</label> <input value="other" type="radio" id="o" name="gender">
+			</div>
+			<div>
+				<label>Country</label>
+				<select name="u_country">
+					<option value="+91">India</option>
+					<option value="+94">China</option>
+					<option value="+93">America</option>
+					<option value="+12">USA</option>
+				</select>
+			</div>
+			<div>
+				<label>File</label>
+				<input type="file" name="">
+			</div>
+			<div>
+				<label>Extra</label>
+				<br>
+				<label>A</label> <input type="checkbox" value="a" name="extra">
+				<label>B</label> <input type="checkbox" value="b" name="extra">
+				<label>C</label> <input type="checkbox" value="c" name="extra">
+			</div>
+			<div>
+					<input type="submit" name="save" value="Register">
+					<input type="reset">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+*{
+	/* select all */
+	margin: 0;
+	padding: 0;
+}
+a{
+	color:inherit;
+	text-decoration: inherit;
+}
+body{
+	background: black;	
+}
+.main{
+	width: 1170px;
+	height: 1600px;
+	border:1px white solid;
+	margin: auto;
+	background: white;
+}
+.top-contact{
+	width:1170px;
+	height: 40px;
+	border:2px red solid;
+	background: #343130;
+}
+.web-data{
+	width: 500px;
+	height: 40px;
+}
+.web-logo{
+	float: left;
+	margin: 10px 13px 0 23px;
+}
+.web-text{
+	float: left;
+	color:white;
+	font-family: verdana;
+	font-size: 20px;
+	margin-top: 5px;
+}
+/*header css starts*/
+.header{
+	width: 1170px;
+	border:2px blue solid;
+	height: 140px;
+}
+.logo{
+	width: 165px;
+	float: left;
+	padding: 10px 0 0 50px;
+}
+.menu-box{
+	width: 900px;
+	float: right;
+	margin-top: 100px;
+}
+.menu-item{
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	margin: 0px 35px;
+	transition: 0.2s color;
+}
+.menu-item:hover{
+	color:#00a8ec;
+	border-bottom: 2px #00a8ec solid;
+}

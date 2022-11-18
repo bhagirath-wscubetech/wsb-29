@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			display: flex;
+			height: 100vh;
+			justify-content: center;
+			align-items: center;
+		}
+		.box{
+			width: 250px;
+			height: 250px;
+			border:2px red solid;
+			transition: 1s;
+			transform-origin: bottom center;
+		}
+		.box:hover{
+			transform: scaleY(1.5);
+			/*
+				scaleX
+				scaleY
+				scale(x,y)
+			*/
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.box{
+			width:200px;
+			height: 200px;
+			background: red;
+			animation-name: box;
+			animation-duration:5s; 
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		@keyframes box{
+			0%{
+				background: red;
+				top:0;
+				left: 0;
+				border-radius: 0;
+			}
+			15%{
+				background: blue;
+				top:0;
+				left: 500px;
+				border-radius: 15%;
+			}
+			40%{
+				background: yellow;
+				top: 500px;
+				left: 500px;
+				border-radius: 50%;
+			}
+			75%{
+				background: pink;
+				top:500px;
+				left: 0;
+				border-radius: 15%;
+			}
+			100%{
+				background: orange;
+				top: 0;
+				left: 0;
+				border-radius: 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>
